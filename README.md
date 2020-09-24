@@ -20,6 +20,16 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   - Southern Hemisphere - Wind Speed (mph) vs. Latitude
  - To optimize the code, write a function that creates the linear regression plots.
 ## VacationPy
+Use jupyter-gmaps and the Google Places API to plan future vacations based on preferred weather conditions.
+- Create a heat map that displays the humidity for every city from WeatherPy.
+- Narrow down the DataFrame to find the ideal weather condition. For example:
+  - A max temperature lower than 80 degrees but higher than 70.
+  - Wind speed less than 10 mph.
+  - Zero cloudiness.
+  - Humidity lower than 70 but higher than 40. 
+  - Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+- Using Google Places API to find the first hotel for each city located within 5000 meters of the filtered coordinates.
+- Plot the hotels on top of the humidity heatmap with each pin containing the <b>Hotel Name</b>, <b>City</b> and <b>Country</b>.
 
 ## List of Files
 1. Weather.ipynb: using the OpenWeatherMap API to visualize the weather of over 500 cities across the world
