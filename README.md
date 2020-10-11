@@ -29,7 +29,7 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   - Northern Hemisphere - Wind Speed (mph) vs. Latitude \
 ![Northern_Wind_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Wind_Lat.png)
   - Southern Hemisphere - Wind Speed (mph) vs. Latitude \
-![Southern_Wind_Lat]()
+![Southern_Wind_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Wind_Lat.png)
  - To optimize the code, write a function that creates the linear regression plots.
 ## VacationPy
 Use jupyter-gmaps and the Google Places API to plan future vacations based on preferred weather conditions.
