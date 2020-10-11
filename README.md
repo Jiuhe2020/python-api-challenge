@@ -35,12 +35,14 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
 Use jupyter-gmaps and the Google Places API to plan future vacations based on preferred weather conditions.
 - Create a heat map that displays the humidity for every city from WeatherPy.
 - Narrow down the DataFrame to find the ideal weather condition. For example:
-  - A max temperature lower than 80 degrees but higher than 70.
-  - Wind speed less than 10 mph.
-  - Zero cloudiness.
-  - Humidity lower than 70 but higher than 40. 
-  - Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+  - A max temperature lower than 80 degrees but higher than 70
+  - Wind speed less than 10 mph
+  - Zero cloudiness
+  - Humidity lower than 70 but higher than 40
+  - Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal
+![City List](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/City_List.png)
 - Using Google Places API to find the first hotel for each city located within 5000 meters of the filtered coordinates.
+![Hotel List](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Hotel_List.png)
 - Plot the hotels on top of the humidity heatmap with each pin containing the <b>Hotel Name</b>, <b>City</b> and <b>Country</b>.
 
 ## List of Files
