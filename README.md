@@ -27,7 +27,7 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   - Southern Hemisphere - Cloudiness (%) vs. Latitude \
 ![Southern_Cloud_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Cloud_Lat.png)
   - Northern Hemisphere - Wind Speed (mph) vs. Latitude \
-![Northern_Wind_Lat]()
+![Northern_Wind_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Wind_Lat.png)
   - Southern Hemisphere - Wind Speed (mph) vs. Latitude \
 ![Southern_Wind_Lat]()
  - To optimize the code, write a function that creates the linear regression plots.
