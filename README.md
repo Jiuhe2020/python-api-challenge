@@ -17,7 +17,7 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   - Northern Hemisphere - Temperature (F) vs. Latitude \
 ![Northern_Temp_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Temp_Lat.png)
   - Southern Hemisphere - Temperature (F) vs. Latitude \
-![Southern_Temp_Lat]()
+![Southern_Temp_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Temp_Lat.png)
   - Northern Hemisphere - Humidity (%) vs. Latitude \
 ![Northern_Humidity_Lat]()
   - Southern Hemisphere - Humidity (%) vs. Latitude \
