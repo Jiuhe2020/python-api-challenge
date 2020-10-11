@@ -14,14 +14,22 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   - Wind Speed (mph) vs. Latitude \
 ![WindSpeed_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig4.png)
 - Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
-  - Northern Hemisphere - Temperature (F) vs. Latitude
-  - Southern Hemisphere - Temperature (F) vs. Latitude
-  - Northern Hemisphere - Humidity (%) vs. Latitude
-  - Southern Hemisphere - Humidity (%) vs. Latitude
-  - Northern Hemisphere - Cloudiness (%) vs. Latitude
-  - Southern Hemisphere - Cloudiness (%) vs. Latitude
-  - Northern Hemisphere - Wind Speed (mph) vs. Latitude
-  - Southern Hemisphere - Wind Speed (mph) vs. Latitude
+  - Northern Hemisphere - Temperature (F) vs. Latitude \
+![Northern_Temp_Lat]()
+  - Southern Hemisphere - Temperature (F) vs. Latitude \
+![Southern_Temp_Lat]()
+  - Northern Hemisphere - Humidity (%) vs. Latitude \
+![Northern_Humidity_Lat]()
+  - Southern Hemisphere - Humidity (%) vs. Latitude \
+![Southern_Humidity_Lat]()
+  - Northern Hemisphere - Cloudiness (%) vs. Latitude \
+![Northern_Cloud_Lat]()
+  - Southern Hemisphere - Cloudiness (%) vs. Latitude \
+![Southern_Cloud_Lat]()
+  - Northern Hemisphere - Wind Speed (mph) vs. Latitude \
+![Northern_Wind_Lat]()
+  - Southern Hemisphere - Wind Speed (mph) vs. Latitude \
+![Southern_Wind_Lat]()
  - To optimize the code, write a function that creates the linear regression plots.
 ## VacationPy
 Use jupyter-gmaps and the Google Places API to plan future vacations based on preferred weather conditions.
