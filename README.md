@@ -15,7 +15,7 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
 ![WindSpeed_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig4.png)
 - Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
   - Northern Hemisphere - Temperature (F) vs. Latitude \
-![Northern_Temp_Lat]()
+![Northern_Temp_Lat](https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Temp_Lat.png)
   - Southern Hemisphere - Temperature (F) vs. Latitude \
 ![Southern_Temp_Lat]()
   - Northern Hemisphere - Humidity (%) vs. Latitude \
