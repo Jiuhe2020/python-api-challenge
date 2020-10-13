@@ -68,7 +68,8 @@ Randomly select at least 500 unique (non-repeat) cities based on latitude and lo
   <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Wind_Lat.png" height="50%" width="50%">
 </p>
 
- - To optimize the code, write a function that creates the linear regression plots.
+- To optimize the code, write a function that creates the linear regression plots
+
 ## VacationPy
 Use jupyter-gmaps and the Google Places API to plan future vacations based on preferred weather conditions.
 - Create a heat map that displays the humidity for every city from WeatherPy.
@@ -87,7 +88,7 @@ Use jupyter-gmaps and the Google Places API to plan future vacations based on pr
   <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Hotel_List.png" height="75%" width="75%">
 </p>
 
-- Plot the hotels on top of the humidity heatmap with each pin containing the <b>Hotel Name</b>, <b>City</b> and <b>Country</b>.
+- Plot the hotels on top of the humidity heatmap with each pin containing the <b>Hotel Name</b>, <b>City</b> and <b>Country</b>
 
 ## List of Content
 1. Weather.ipynb: using the OpenWeatherMap API to visualize the weather of over 500 cities across the world
