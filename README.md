@@ -8,65 +8,65 @@ This project utilizes a simple Python library, the OpenWeatherMap API, and a lit
 Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude. Then, perform a weather check on each of the cities using a series of successive API calls. Include a print log of each city as it's being processed with the city number and city name. Save a CSV of all retrieved data and a PNG image for each scatter plot.
 - Create a series of scatter plots to showcase the following relationships:
   - Temperature (F) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig1.png">
-</p>
-
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig1.png">
+  </p>
+  
   - Humidity (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig2.png">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig2.png">
+  </p>
 
   - Cloudiness (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig3.png">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig3.png">
+  </p>
 
   - Wind Speed (mph) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig4.png">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/output_data/Fig4.png">
+  </p>
 
 - Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
   - Northern Hemisphere - Temperature (F) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Temp_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Temp_Lat.png" height="50%" width="50%">
+  </p>
 
   - Southern Hemisphere - Temperature (F) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Temp_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Temp_Lat.png" height="50%" width="50%">
+  </p>
 
   - Northern Hemisphere - Humidity (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Humidity_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Humidity_Lat.png" height="50%" width="50%">
+  </p>
 
   - Southern Hemisphere - Humidity (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Humidity_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Humidity_Lat.png" height="50%" width="50%">
+  </p>
 
   - Northern Hemisphere - Cloudiness (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Cloud_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Cloud_Lat.png" height="50%" width="50%">
+  </p>
 
   - Southern Hemisphere - Cloudiness (%) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Cloud_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Cloud_Lat.png" height="50%" width="50%">
+  </p>
 
   - Northern Hemisphere - Wind Speed (mph) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Wind_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Northern_Wind_Lat.png" height="50%" width="50%">
+  </p>
 
   - Southern Hemisphere - Wind Speed (mph) vs. Latitude
-<p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Wind_Lat.png" height="50%" width="50%">
-</p>
+  <p align="center">
+    <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Southern_Wind_Lat.png" height="50%" width="50%">
+  </p>
 
 - To optimize the code, write a function that creates the linear regression plots
 
