@@ -79,12 +79,12 @@ Use jupyter-gmaps and the Google Places API to plan future vacations based on pr
   - Humidity lower than 70 but higher than 40
   - Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/City_List.png" height="50%" width="50%">
+  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/City_List.png" height="75%" width="75%">
 </p>
 
 - Using Google Places API to find the first hotel for each city located within 5000 meters of the filtered coordinates.
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Hotel_List.png" height="50%" width="50%">
+  <img src="https://github.com/Jiuhe2020/python-api-challenge/blob/master/images/Hotel_List.png" height="75%" width="75%">
 </p>
 
 - Plot the hotels on top of the humidity heatmap with each pin containing the <b>Hotel Name</b>, <b>City</b> and <b>Country</b>.
